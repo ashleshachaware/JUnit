@@ -1,10 +1,5 @@
 public class Menu {
     public int getPrice(String item){
-        System.out.println("----------MENU---------");
-        System.out.println("Cold Coffee-----Rs 40");
-        System.out.println("Pattice-----Rs 25");
-        System.out.println("Fried Rice-----Rs 80");
-        
         int price = 0;
 
         if(item == "Cold Coffee"){
