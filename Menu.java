@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Menu {
     public int getPrice(String item){
         System.out.println("----------MENU---------");
@@ -6,7 +5,6 @@ public class Menu {
         System.out.println("Pattice-----Rs 25");
         System.out.println("Fried Rice-----Rs 80");
         
-        Scanner sc = new Scanner(System.in);
         int price = 0;
 
         if(item == "Cold Coffee"){
