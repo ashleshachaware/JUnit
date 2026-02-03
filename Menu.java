@@ -7,19 +7,17 @@ public class Menu {
         System.out.println("Fried Rice-----Rs 80");
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter item to order: ");
-        String order = sc.next();
         int price = 0;
 
-        if(order == "Cold Coffee"){
+        if(item == "Cold Coffee"){
             price = 40;
         }
 
-        if(order == "Pattice"){
+        if(item == "Pattice"){
             price = 25;
         }
 
-        if(order == "Fried Rice"){
+        if(item == "Fried Rice"){
             price = 80;
         }
 
