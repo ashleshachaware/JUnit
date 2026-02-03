@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Menu {
-    public int getPrice(){
+    public int getPrice(String item){
         System.out.println("----------MENU---------");
         System.out.println("Cold Coffee-----Rs 40");
         System.out.println("Pattice-----Rs 25");
