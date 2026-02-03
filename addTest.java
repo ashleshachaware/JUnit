@@ -1,4 +1,4 @@
-import java.beans.Transient;
+//import java.beans.Transient;
 import org.junit.*;
 public class addTest {
     @Test
